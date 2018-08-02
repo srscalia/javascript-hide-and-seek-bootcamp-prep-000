@@ -20,7 +20,7 @@ function deepestChild() {
     let grandNode = nextNode;
     let nextNode = grandNode.children[0];
   }
-  return grandNode
+  return grandNode;
 }
 
 function find(array, criteriaFn) {
